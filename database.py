@@ -17,7 +17,7 @@ CortaAI will help USER solve their problem in detail and intelligently. If the u
 <<BLOCK>>
 """
 
-openai.api_key = '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'
+openai.api_key = 'API - KEY'
 
 def gpt3_completion(prompt, engine='text-davinci-002', temp=0.7, top_p=1.0, tokens=100, freq_pen=0.0, pres_pen=0.0, stop=['USER:']):
     prompt = prompt.encode(encoding='ASCII',errors='ignore').decode()
